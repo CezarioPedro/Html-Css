@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="bolatrad.ico" type="image/x-icon">
+    <title>Exemplo de Hover</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Proza+Libre:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap');
+        body{
+            font-family: 'Proza Libre',Arial, Helvetica, sans-serif;
+        }
+
+        div > p {
+        display: none;
+    }
+
+        div:hover > p{
+        display: block;
+        color: white;
+        background-color: red;
+        width: 250px;
+        }
+
+        div:hover{
+            color: red;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Exemplo de Hover</h1>
+    <p>Passe o mouse sobre o texto abaixo</p>
+    <div>
+        Passe o Mouse Aqui
+        <p>Texto Escondido...</p>
+    </div>
+    <p>Fim do Exemplo</p>
+    
+</body>
+</html>
