@@ -18,24 +18,31 @@
             background-color: lightcyan;
             border: 1px solid black;
             text-align: center;
-            flex-basis: 300px;
+                
 
 
         }
 
         div#cxA{
-            flex-grow: 0;
-            flex-shrink: 0;    
+            /* flex-grow: 0;
+            flex-shrink: 0; 
+            flex-basis: 300px;  */
+            
+            flex: 0 0 300px;
         }
 
         div#cxB{
-            flex-grow: 0;
+            /** flex-grow: 0;
             flex-shrink: 1;
+            flex-basis: auto; */
+            flex: 0 1 auto;
         }
 
         div#cxC{
-            flex-grow: 0;
+            /*flex-grow: 0;
             flex-shrink: 3;
+            flex-basis: 100px; */
+            flex: 0 3 100px;
         }
     </style>
 </head>
